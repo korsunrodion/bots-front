@@ -18,11 +18,3 @@ export type Task = {
   completedAt?: Date;
   name: string;
 };
-
-export type Bot = {
-  id: string;
-  createdAt: Date;
-  updatedAt: Date;
-  name: string;
-  tasks: Task[];
-};

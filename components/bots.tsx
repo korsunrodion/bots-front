@@ -1,7 +1,8 @@
 'use client';
 
 import getBots from "@/api/getBots/getBots";
-import { Bot, TaskStatus, TaskStatusLabel } from "@/types";
+import { Bot } from "@/types/bot";
+import { TaskStatus, TaskStatusLabel } from '@/types/task';
 import { Box, Button, Container, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Typography } from "@mui/material";
 import { useQuery, useQueryClient } from "@tanstack/react-query";
 import clsx from "clsx";
